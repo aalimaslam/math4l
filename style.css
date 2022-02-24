@@ -1,0 +1,75 @@
+@font-face {
+    font-family: blox;
+    src: url('./Blox2.ttf');
+}
+.fs-biggest{
+    font-size:4rem;
+}
+.heading{
+    background:linear-gradient(to top right,red, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block !important;
+    font-family: blox, cursive, sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.blog{
+    background:rgba(255,255,255,0.1);
+}
+.bg-trans{
+    background:rgba(255, 255, 255, 0.1);
+}
+.section-one{
+    min-height:70vh;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+}
+.section-one img{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    z-index: -1;
+    width:100%;
+}
+.section-one .fs-biggest{
+    font-family: blox,cursive,sans-serif;
+}
+.description{
+    text-align: left;
+}
+.bg-gradient-new{
+    background: linear-gradient(to right, red,  cyan) !important;
+}
+.to-top{
+    height:50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    position: fixed;
+    bottom:30px;
+    right:40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:black;
+    box-shadow: 3px 10px 25px rgba(0,0,0,0.5);
+}
+@media only screen and (max-width:800px ){
+    .p-5{
+        padding:20px !important;
+    }
+}
+
+#particles-js{
+    position: absolute;
+    top:0;
+    left:0;
+    min-height:100vh;
+    z-index: -10;
+}
